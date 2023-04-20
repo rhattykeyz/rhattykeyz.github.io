@@ -1,0 +1,149 @@
+        * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 1rem;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav li {
+        margin-left: 1rem;
+    }
+    
+    main {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+    
+    h1 {
+        margin-top: 0;
+    }
+    
+    p {
+        line-height: 1.5;
+    }
+    
+    footer {
+        background-color: #1f6bdd;
+        color: #fff;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        background-color: #1883ca;
+        color: #fff;
+        padding: 1rem;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    nav li {
+        margin: 0 1rem;
+    }
+    
+    main {
+        padding: 2rem;
+    }
+    
+    form {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 1rem;
+        margin-top: 1rem;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        padding: 0.5rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 1rem;
+    }
+    
+    button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #555;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding
+        /* nav bar */
+        .d-flex {
+            width: 200%;
+        }
+        /* home */
+        #home {
+            margin-bottom: 50px;
+        }
+        .carousel-inner {
+            width: 300px;
+        }
+        /* sales */
+        #sales {
+            margin-top: 50px;
+        }
+        /* Express delivery */
+        #Express {
+            margin-bottom: 30px;
+        }
+        /* Footer */
+        #footer {
+            text-align: center;
+            background-color: #7C96AB;
+        }
+        .copyright {
+            padding: 40px;
+        }
+        .bi {
+            padding: 5px;
+        }
